@@ -78,19 +78,19 @@ header p {
 }
 
 .button-offer {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   color: white;
   border: 3px solid #ffffff;
   width: 164px;
   padding: 14px 58px;
   box-sizing: border-box;
+  transition-duration: 1s;
 }
 
 .button-offer:hover {
   background-color: white;
   color: black;
-  transition-duration: 1s;
 }
 
 section {
@@ -105,11 +105,13 @@ section {
   padding: 0 0 78px 0;
 }
 
-.circle-1 {
+.circle {
   aspect-ratio: 1;
   height: 197px;
-  background-color: rgba(196, 196, 196, 1);
   border-radius: 50%;
+}
+
+.circle-1 {
   margin-right: 60px;
   background: url(./assets/person1.jpg) center;
   background-size: 197px;
@@ -143,10 +145,6 @@ section {
 }
 
 .circle-2 {
-  aspect-ratio: 1;
-  height: 197px;
-  background-color: rgba(144, 125, 125, 1);
-  border-radius: 50%;
   margin-left: 60px;
   background: url(./assets/person2.jpg) center;
   background-size: 197px;
@@ -180,11 +178,11 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 18px;
+  transition-duration: 500ms;
 }
 
 .box:hover {
   transform: scale(1.05);
-  transition-duration: 500ms;
 }
 
 .new-offer p::after {
@@ -225,7 +223,7 @@ footer i:nth-of-type(2n) {
 }
 
 .container-footer p {
-  font-weight: 700;
+  font-weight: bold;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
 }
